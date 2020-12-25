@@ -7,8 +7,9 @@
 import SwiftUI
 
 struct Exercise2: View {
+    @State var kwd = ""
+    
     var body: some View {
-        
         ZStack {
             VStack{
                 Spacer()
@@ -26,34 +27,44 @@ struct Exercise2: View {
                         .multilineTextAlignment(.center)
                         .padding()
                     
-                    Text("استبدل هذا ب Text Field")
+                    TextField("العملة بالدينار", text: $kwd)
                         .font(.largeTitle)
                         .multilineTextAlignment(.center)
                         .keyboardType(.decimalPad)
 
-                    VStack(spacing: 30){
-                        HStack(spacing: 40){
+                    VStack(spacing: 30)
+                    {
+                        HStack(spacing: 40)
+                        {
                             Image("us")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 50)
                             
-                            Text("0")
+                            let val = Double(kwd) ?? 0
+                            let usd = val * 3.28
+                            Text("$\(usd)")
                         }
+                        
                         HStack(spacing: 40){
                             Image("uk")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 50)
                             
-                            Text("0")
+                            let val = Double(kwd) ?? 0
+                            let pnd = val * 2.46
+                            Text("£\(pnd)")
                         }
                         HStack(spacing: 40){
                             Image("eu")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 50)
-                            Text("0")
+                            
+                            let val = Double(kwd) ?? 0
+                            let eur = val * 2.70
+                            Text("€\(eur)")
                         }
                     }.padding(.top, 50)
                     Spacer()

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D2CB65F8258D6A0C0001A246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB65F7258D6A0C0001A246 /* AppDelegate.swift */; };
 		D2CB65FA258D6A0C0001A246 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB65F9258D6A0C0001A246 /* SceneDelegate.swift */; };
-		D2CB65FC258D6A0C0001A246 /* Ex1-water-bottles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB65FB258D6A0C0001A246 /* Ex1-water-bottles.swift */; };
 		D2CB65FE258D6A0F0001A246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CB65FD258D6A0F0001A246 /* Assets.xcassets */; };
 		D2CB6601258D6A0F0001A246 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CB6600258D6A0F0001A246 /* Preview Assets.xcassets */; };
 		D2CB6604258D6A0F0001A246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CB6602258D6A0F0001A246 /* LaunchScreen.storyboard */; };
@@ -20,7 +19,6 @@
 		D2CB65F4258D6A0C0001A246 /* SwiftUICW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CB65F7258D6A0C0001A246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2CB65F9258D6A0C0001A246 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D2CB65FB258D6A0C0001A246 /* Ex1-water-bottles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex1-water-bottles.swift"; sourceTree = "<group>"; };
 		D2CB65FD258D6A0F0001A246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2CB6600258D6A0F0001A246 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2CB6603258D6A0F0001A246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				D2CB65F7258D6A0C0001A246 /* AppDelegate.swift */,
 				D2CB65F9258D6A0C0001A246 /* SceneDelegate.swift */,
-				D2CB65FB258D6A0C0001A246 /* Ex1-water-bottles.swift */,
 				D2CB660F258D7D430001A246 /* Ex2-currency-exchange.swift */,
 				D2CB65FD258D6A0F0001A246 /* Assets.xcassets */,
 				D2CB6602258D6A0F0001A246 /* LaunchScreen.storyboard */,
@@ -150,7 +147,6 @@
 			files = (
 				D2CB65F8258D6A0C0001A246 /* AppDelegate.swift in Sources */,
 				D2CB65FA258D6A0C0001A246 /* SceneDelegate.swift in Sources */,
-				D2CB65FC258D6A0C0001A246 /* Ex1-water-bottles.swift in Sources */,
 				D2CB6610258D7D430001A246 /* Ex2-currency-exchange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
